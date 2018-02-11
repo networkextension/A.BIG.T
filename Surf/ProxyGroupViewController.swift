@@ -65,7 +65,7 @@ class ProxyGroupViewController: SFTableViewController,BarcodeScanDelegate,AddEdi
     //UIImagePickerControllerDelegate,UINavigationControllerDelegate
 {
     
-    let dnsqueue:DispatchQueue = DispatchQueue(label:"com.abigt.dns")
+    let dnsqueue:DispatchQueue = DispatchQueue(label:"com.yarshure.dns")
     let coreFuncs = ["Aid","start"]
     let coreFuncsTitles = ["Connect"]
     var titleView:TitleView?
@@ -318,7 +318,7 @@ class ProxyGroupViewController: SFTableViewController,BarcodeScanDelegate,AddEdi
         
         if let re =  ProxyGroupSettings.share.receipt {
             for item in re.in_app {
-                if item.product_id == "com.abigt.Surf.30D"{
+                if item.product_id == "com.yarshure.Surf.30D"{
                     let now = Date().timeIntervalSince1970
                     let x = Double(item.original_purchase_date_ms)!/1000 + 30 * 24*3600
                     let df = DateFormatter()
@@ -420,7 +420,7 @@ class ProxyGroupViewController: SFTableViewController,BarcodeScanDelegate,AddEdi
 
     func showScan(){
         let queue = DispatchQueue.init(label: ".", qos: .background, attributes: .concurrent, autoreleaseFrequency: .inherit, target: nil)
-        //let queue = DispatchQueue(label: "com.abigt.socket")// DISPATCH_QUEUE_CONCURRENT)
+        //let queue = DispatchQueue(label: "com.yarshure.socket")// DISPATCH_QUEUE_CONCURRENT)
        
         for p in ProxyGroupSettings.share.proxys {
             if p.kcptun {
@@ -496,7 +496,7 @@ class ProxyGroupViewController: SFTableViewController,BarcodeScanDelegate,AddEdi
 
     func showScanXXX(){
         let queue = DispatchQueue.init(label: "test.http", qos: .background, attributes: .concurrent, autoreleaseFrequency: .inherit, target: nil)
-        //let queue = DispatchQueue(label: "com.abigt.socket")// DISPATCH_QUEUE_CONCURRENT)
+        //let queue = DispatchQueue(label: "com.yarshure.socket")// DISPATCH_QUEUE_CONCURRENT)
         queue.async(execute: {
             
            

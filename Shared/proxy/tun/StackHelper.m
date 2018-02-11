@@ -46,14 +46,14 @@
 
 void crashSignalHandler(int signal)
 {
-    //let c  = FileManager.default.containerURLForSecurityApplicationGroupIdentifier("group.com.abigt.Surf")
+    //let c  = FileManager.default.containerURLForSecurityApplicationGroupIdentifier("group.com.yarshure.Surf")
     //urlContain = c!.appendingPathComponent("Log")
     //SFVPNSession *s = [sf session];
    
     //NSString *name = @"abc";//  s.idenString;
     NSString *d = @"";
     NSString *fileName = [NSString stringWithFormat:@"Log/%@/crash.log",d];
-    NSURL *c = [[[NSFileManager defaultManager] containerURLForSecurityApplicationGroupIdentifier:@"group.com.abigt.Surf"] URLByAppendingPathComponent:fileName];
+    NSURL *c = [[[NSFileManager defaultManager] containerURLForSecurityApplicationGroupIdentifier:@"group.com.yarshure.Surf"] URLByAppendingPathComponent:fileName];
     
     const char* fileNameCString = [[c path] cStringUsingEncoding:NSUTF8StringEncoding];
     FILE* crashFile = fopen(fileNameCString, "w");

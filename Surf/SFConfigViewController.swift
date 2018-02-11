@@ -114,7 +114,7 @@ class SFConfigListViewController : SFTableViewController ,ConfigTableViewControl
     }
 
 //    func loadConfigSummery(fName:String){
-//        let q = dispatch_queue_create("com.abigt.config", nil)
+//        let q = dispatch_queue_create("com.yarshure.config", nil)
 //        dispatch_async(q){[weak self] in
 //            if let StrongSelf = self{
 //                let configURL = applicationDocumentsDirectory.appendingPathComponent(fName)

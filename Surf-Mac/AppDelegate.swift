@@ -39,7 +39,7 @@ class AppDelegate: NSResponder, NSApplicationDelegate,NSMenuDelegate ,NSTouchBar
         let url = fm.containerURL(forSecurityApplicationGroupIdentifier: groupIdentifier)!
         return url.appendingPathComponent("Log")
     }()
-    let dnsqueue:DispatchQueue = DispatchQueue(label:"com.abigt.dns")
+    let dnsqueue:DispatchQueue = DispatchQueue(label:"com.yarshure.dns")
     @IBOutlet weak var statusView: StatusView!
     var targetManager : NEVPNManager?
     var managers = [NEVPNManager]()
@@ -618,7 +618,7 @@ class AppDelegate: NSResponder, NSApplicationDelegate,NSMenuDelegate ,NSTouchBar
     
     func applicationDidFinishLaunching(_ notification: Notification) {
         Fabric.with([Crashlytics.self])
-        XRuler.groupIdentifier = "745WQDK4L7.com.abigt.Surf"
+        XRuler.groupIdentifier = "745WQDK4L7.com.yarshure.Surf"
         UserDefaults.standard.set(true, forKey: "NSApplicationCrashOnExceptions")
         copyConfig()
         // testTouchBar()
@@ -645,7 +645,7 @@ class AppDelegate: NSResponder, NSApplicationDelegate,NSMenuDelegate ,NSTouchBar
     
     func showScan(){
         let queue = DispatchQueue.init(label: ".", qos: .background, attributes: .concurrent, autoreleaseFrequency: .inherit, target: nil)
-        //let queue = DispatchQueue(label: "com.abigt.socket")// DISPATCH_QUEUE_CONCURRENT)
+        //let queue = DispatchQueue(label: "com.yarshure.socket")// DISPATCH_QUEUE_CONCURRENT)
         for p in ProxyGroupSettings.share.proxys {
             
             queue.async(execute: {
@@ -942,13 +942,13 @@ extension AppDelegate {
         if  let  currentiCloudToken = fm.ubiquityIdentityToken{
             let  newTokenData:NSData = NSKeyedArchiver.archivedData(withRootObject: currentiCloudToken) as NSData
             print("token \(newTokenData)")
-            UserDefaults.standard.set(newTokenData, forKey: "com.abigt.surf.UbiquityIdentityToken")
+            UserDefaults.standard.set(newTokenData, forKey: "com.yarshure.surf.UbiquityIdentityToken")
             let iCloudToken = NSKeyedArchiver.archivedData(withRootObject: currentiCloudToken)
             //setObject: newTokenData
             //forKey: @"com.apple.MyAppName.UbiquityIdentityToken"];
         }else {
             UserDefaults.standard
-                .removeObject(forKey: "com.abigt.surf.UbiquityIdentityToken")
+                .removeObject(forKey: "com.yarshure.surf.UbiquityIdentityToken")
         }
         NotificationCenter.default.addObserver(forName: NSNotification.Name.NSUbiquityIdentityDidChange, object: nil, queue: OperationQueue.main) { (noti:Notification) in
             print("NSUbiquityIdentityDidChangeNotification")

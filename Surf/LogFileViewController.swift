@@ -14,7 +14,7 @@ class LogFileViewController: SFViewController,MFMailComposeViewControllerDelegat
 
     var filePath:URL?
     var showRouter:Bool = false
-    var queue = DispatchQueue(label:"com.abigt.route")
+    var queue = DispatchQueue(label:"com.yarshure.route")
     @IBOutlet weak  var textView:UITextView?
     
     override func viewDidLoad() {

@@ -71,7 +71,7 @@ class ConfigTableViewController: SFTableViewController,LoglevelDelegate ,AddEdit
             
         }
         if let p = path {
-            let q = DispatchQueue(label:"com.abigt.config")
+            let q = DispatchQueue(label:"com.yarshure.config")
             q.async ( execute: { [unowned self] in
                 self.config = SFConfig.init(path: p,loadRule: true)
                 DispatchQueue.main.async(execute:{

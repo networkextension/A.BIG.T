@@ -210,11 +210,11 @@ class LogListTableViewController: SFTableViewController {
         findFiles()
     }
     func findFiles(){
-        let q = DispatchQueue(label:"com.abigt.sortlog")
+        let q = DispatchQueue(label:"com.yarshure.sortlog")
         q.async(execute:  { [weak self] () -> Void in
             
             self!.fileList.removeAll()
-            //let urlContain = FileManager.default.containerURLForSecurityApplicationGroupIdentifier("group.com.abigt.Surf")
+            //let urlContain = FileManager.default.containerURLForSecurityApplicationGroupIdentifier("group.com.yarshure.Surf")
             let url = groupContainerURL().appendingPathComponent("Log/" + self!.filePath)
             
             let dir = url.path //NSHomeDirectory().NS.stringByAppendingPathComponent("Documents/applog")

@@ -58,7 +58,7 @@ class TodayViewController: SFTableViewController, NCWidgetProviding {
     var showServerHost = false
     var lastTraffic:STTraffic = DataCounters("240.7.1.9")
     var timer:Timer?
-    let dnsqueue:DispatchQueue = DispatchQueue(label: "com.abigt.dns")
+    let dnsqueue:DispatchQueue = DispatchQueue(label: "com.yarshure.dns")
     var autoRedail = false
     let reachability = Reachability()!
     var charts:[Double] = []
@@ -787,7 +787,7 @@ class TodayViewController: SFTableViewController, NCWidgetProviding {
         // tableView.reloadData()
     }
     func closeTun(){
-        let queue = DispatchQueue(label:"com.abigt.socket")//, DISPATCH_QUEUE_CONCURRENT
+        let queue = DispatchQueue(label:"com.yarshure.socket")//, DISPATCH_QUEUE_CONCURRENT
         
         queue.async( execute: {
             //let start = NSDate()
@@ -916,7 +916,7 @@ class TodayViewController: SFTableViewController, NCWidgetProviding {
 
 extension TodayViewController{
     func tcpScan(){
-        let queue = DispatchQueue(label: "com.abigt.socket")//, DISPATCH_QUEUE_CONCURRENT)
+        let queue = DispatchQueue(label: "com.yarshure.socket")//, DISPATCH_QUEUE_CONCURRENT)
         for p in ProxyGroupSettings.share.proxys {
             print(p.showString() + " now scan " )
             if p.kcptun {

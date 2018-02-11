@@ -7,7 +7,7 @@
 	<key>com.apple.security.files.user-selected.read-only</key>
 	<true/>
 	<key>com.apple.application-identifier</key>
-	<string>745WQDK4L7.com.abigt.Surf.mac.Surf-Today</string>
+	<string>745WQDK4L7.com.yarshure.Surf.mac.Surf-Today</string>
 	<key>com.apple.developer.networking.networkextension</key>
 	<array>
 		<string>packet-tunnel-provider</string>

@@ -26,13 +26,13 @@ func prepare() {
     AxLogger.logleve = .Debug
     #if os(iOS)
    
-    if !SKit.prepare("group.com.abigt.Surf", app: "xxxx", config: "surf.con"){
+    if !SKit.prepare("group.com.yarshure.Surf", app: "xxxx", config: "surf.con"){
         fatalError("framework init error!")
     }
     NSLog("init ################333")
     #elseif os(macOS)
 
-        if !SKit.prepare("745WQDK4L7.com.abigt.Surf", app: "xxxx", config: "abigt.conf"){
+        if !SKit.prepare("745WQDK4L7.com.yarshure.Surf", app: "xxxx", config: "abigt.conf"){
             fatalError("framework init error!")
     }
     #endif
@@ -50,6 +50,6 @@ func prepareApp() {
     XProxy.debugEanble = true
 
     XRuler.kProxyGroupFile = ".ProxyGroup"
-    XRuler.groupIdentifier = "group.com.abigt.Surf"
-    SKit.groupIdentifier = "group.com.abigt.Surf"
+    XRuler.groupIdentifier = "group.com.yarshure.Surf"
+    SKit.groupIdentifier = "group.com.yarshure.Surf"
 }

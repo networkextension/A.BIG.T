@@ -56,7 +56,7 @@ class AdvancedWindowController: NSWindowController {
             ProxyGroupSettings.share.showCountry = false
         }
         
-        let x = UserDefaults.standard.object(forKey: "com.abigt.surf.UbiquityIdentityToken")
+        let x = UserDefaults.standard.object(forKey: "com.yarshure.surf.UbiquityIdentityToken")
         if x == nil {
             iCloudButton.state = NSControl.StateValue(rawValue: 0)
             alertMesage("Invalid iCloud token")

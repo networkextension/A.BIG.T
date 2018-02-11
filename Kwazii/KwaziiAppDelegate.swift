@@ -7,7 +7,7 @@
 //
 
 import Cocoa
-let appgroup = "745WQDK4L7.com.abigt.Surf"
+let appgroup = "745WQDK4L7.com.yarshure.Surf"
 import XRuler
 import Xcon
 import Sparkle
@@ -173,7 +173,7 @@ class KwaziiAppDelegate: NSObject, NSApplicationDelegate,NSMenuDelegate {
         
         return unsigned
     }
-    let dnsqueue:DispatchQueue = DispatchQueue(label:"com.abigt.dns")
+    let dnsqueue:DispatchQueue = DispatchQueue(label:"com.yarshure.dns")
     @IBAction func openRule(_ sender:Any){
         let url = fm.containerURL(forSecurityApplicationGroupIdentifier: groupIdentifier)!.appendingPathComponent("abigt.conf")
         

@@ -36,7 +36,7 @@ class ProductCell: PurchaseCell {
     var haveInfo:Bool = false
     @IBOutlet weak var production:UILabel!
 }
-let buyKey = "com.abigt.Surf.buy"
+let buyKey = "com.yarshure.Surf.buy"
 
 class ViewController: SFTableViewController {
 
@@ -303,7 +303,7 @@ class ViewController: SFTableViewController {
                         result(purched)
                     }else {
                         for inapp in  rr.in_app {
-                            if inapp.product_id == "com.abigt.Surf.Pro" {
+                            if inapp.product_id == "com.yarshure.Surf.Pro" {
                                 print("version buy version > 3.2 ,buy \(inapp.product_id)")
                                 purched = true
                                 break

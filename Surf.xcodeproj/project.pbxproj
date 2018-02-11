@@ -149,7 +149,7 @@
 		693AAE77200EEA3C009E481E /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AAE76200EEA3C009E481E /* MainWindow.swift */; };
 		693AAE79200EED15009E481E /* RequestBasic.xib in Resources */ = {isa = PBXBuildFile; fileRef = 693AAE78200EED15009E481E /* RequestBasic.xib */; };
 		693AAE7A200EF24F009E481E /* RequestBasic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 693AAE38200EE3D3009E481E /* RequestBasic.storyboard */; };
-		693AAE7C200EF7F3009E481E /* abigt.conf in Resources */ = {isa = PBXBuildFile; fileRef = 693AAE7B200EF7F3009E481E /* abigt.conf */; };
+		693AAE7C200EF7F3009E481E /* yarshure.conf in Resources */ = {isa = PBXBuildFile; fileRef = 693AAE7B200EF7F3009E481E /* yarshure.conf */; };
 		693AAE7D200F0F7A009E481E /* PreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6906B9161DE2A6E300A60B66 /* PreferencesWindowController.swift */; };
 		693AAE7F200F0F81009E481E /* PreferencesWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6906B9181DE2A6EC00A60B66 /* PreferencesWindowController.xib */; };
 		693AAE82200F1742009E481E /* SFCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693DBDFE1C96977A0067595C /* SFCountry.swift */; };
@@ -622,7 +622,7 @@
 		693AAE75200EE9A0009E481E /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NetworkExtension.framework; sourceTree = "<group>"; };
 		693AAE76200EEA3C009E481E /* MainWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
 		693AAE78200EED15009E481E /* RequestBasic.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RequestBasic.xib; sourceTree = "<group>"; };
-		693AAE7B200EF7F3009E481E /* abigt.conf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = abigt.conf; sourceTree = "<group>"; };
+		693AAE7B200EF7F3009E481E /* yarshure.conf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = yarshure.conf; sourceTree = "<group>"; };
 		693B603C1C479F2A00173D0B /* thanks.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = thanks.txt; sourceTree = "<group>"; };
 		693B603E1C48867500173D0B /* const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = const.swift; sourceTree = "<group>"; };
 		693B74491ED9FA69004C6E87 /* SFSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFSocket.framework; path = Carthage/Build/iOS/SFSocket.framework; sourceTree = "<group>"; };
@@ -674,8 +674,6 @@
 		69673C501F32D6A30003AB6C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/help.strings"; sourceTree = "<group>"; };
 		696847771D504E87005E17C2 /* SFAppExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFAppExtension.swift; sourceTree = "<group>"; };
 		696DD2D91C7B132E00C34416 /* OndemandController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OndemandController.swift; sourceTree = "<group>"; };
-		696E33991C99479C0075B635 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = share/lib/libcrypto.a; sourceTree = "<group>"; };
-		696E339A1C99479C0075B635 /* libsodium.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsodium.a; path = share/lib/libsodium.a; sourceTree = "<group>"; };
 		696E73AB1C44982400DF9A39 /* PacketTunnel-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "PacketTunnel-iOS.xcconfig"; path = "iOS/PacketTunnel-iOS.xcconfig"; sourceTree = "<group>"; };
 		696E73B31C44CEEA00DF9A39 /* DataShare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataShare.swift; sourceTree = "<group>"; };
 		696E73B41C44CEEA00DF9A39 /* Socks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Socks.swift; sourceTree = "<group>"; };
@@ -742,7 +740,6 @@
 		69A0900A1C4C851C0064D361 /* SFWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFWebViewController.swift; sourceTree = "<group>"; };
 		69A0900C1C4C8CCC0064D361 /* config.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = config.html; sourceTree = "<group>"; };
 		69A4ACE31D2E37C7008963FB /* WidgetSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WidgetSelectViewController.swift; sourceTree = "<group>"; };
-		69A742DA1CA15CA90000ABA1 /* libmbedcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmbedcrypto.a; path = share/lib/libmbedcrypto.a; sourceTree = "<group>"; };
 		69A99E4B1C6A2E96009EC4C5 /* SFLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFLog.swift; sourceTree = "<group>"; };
 		69A9FE4B1CC5C0CF00D5DB41 /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
 		69AD9CC7200354A100C01011 /* XFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XFoundation.framework; path = Carthage/Build/iOS/XFoundation.framework; sourceTree = "<group>"; };
@@ -1000,16 +997,6 @@
 			name = inapp;
 			sourceTree = "<group>";
 		};
-		691B36631C0F4ADC001C815D /* openssl */ = {
-			isa = PBXGroup;
-			children = (
-				69A742DA1CA15CA90000ABA1 /* libmbedcrypto.a */,
-				696E33991C99479C0075B635 /* libcrypto.a */,
-				696E339A1C99479C0075B635 /* libsodium.a */,
-			);
-			name = openssl;
-			sourceTree = "<group>";
-		};
 		692D8CF81C6A250400C07B3A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1044,7 +1031,6 @@
 			children = (
 				691B366C1C0F4BAE001C815D /* libresolv.tbd */,
 				6989AB031C312A3400DD1435 /* Shared */,
-				691B36631C0F4ADC001C815D /* openssl */,
 				69366E581BFECBE700AE123D /* Surf */,
 				578ED92A1C03181300913B2F /* PacketTunnel */,
 				69C4EE2A1C2919010020FBF8 /* Surf-Mac */,
@@ -1115,7 +1101,7 @@
 		693AAE0F200EDA4E009E481E /* Kwazii */ = {
 			isa = PBXGroup;
 			children = (
-				693AAE7B200EF7F3009E481E /* abigt.conf */,
+				693AAE7B200EF7F3009E481E /* yarshure.conf */,
 				693AAE10200EDA4E009E481E /* KwaziiAppDelegate.swift */,
 				6907E9CA201178A900E7B1FE /* Sparkle.framework */,
 				693AAE76200EEA3C009E481E /* MainWindow.swift */,
@@ -1859,7 +1845,7 @@
 				693AAE7A200EF24F009E481E /* RequestBasic.storyboard in Resources */,
 				693AAE83200F1A94009E481E /* data.json in Resources */,
 				6907E9C120102B1900E7B1FE /* HelpWindow.xib in Resources */,
-				693AAE7C200EF7F3009E481E /* abigt.conf in Resources */,
+				693AAE7C200EF7F3009E481E /* yarshure.conf in Resources */,
 				693AAE7F200F0F81009E481E /* PreferencesWindowController.xib in Resources */,
 				6907E9D42011959E00E7B1FE /* Assets.xcassets in Resources */,
 				693AAE18200EDA4F009E481E /* Main.storyboard in Resources */,
@@ -1942,7 +1928,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./iosLib/Fabric.framework/run key token\n";
+			shellScript = "./iosLib/Fabric.framework/run c9fadabbd94966964cc83af7873deadbe56ceb89 e746b1825d577768a63f93d7b2ddd5177ab095a1a9152a29666458e8e5d514f1\n";
 		};
 		696AF49B1F02475A00756E5E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1955,7 +1941,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./iosLib/Fabric.framework/run key token";
+			shellScript = "./iosLib/Fabric.framework/run c9fadabbd94966964cc83af7873deadbe56ceb89 e746b1825d577768a63f93d7b2ddd5177ab095a1a9152a29666458e8e5d514f1\n";
 		};
 		69B37CC21F035F03007E64CE /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1981,7 +1967,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./iosLib/Fabric.framework/run key token";
+			shellScript = "./iosLib/Fabric.framework/run c9fadabbd94966964cc83af7873deadbe56ceb89 e746b1825d577768a63f93d7b2ddd5177ab095a1a9152a29666458e8e5d514f1\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -2332,7 +2318,7 @@
 					"-lstdc++",
 					"-lz",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.abigt.Surf4.PacketTunnel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yarshure.Surf4.PacketTunnel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "eef210fb-7ea4-4a7d-8f18-4ff2f1e1da2b";
 				PROVISIONING_PROFILE_SPECIFIER = packet4;
@@ -2378,7 +2364,7 @@
 					"-lstdc++",
 					"-lz",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.abigt.Surf4.PacketTunnel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yarshure.Surf4.PacketTunnel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "7fd37df6-507e-430d-b3cb-3fefc31a34c9";
 				PROVISIONING_PROFILE_SPECIFIER = p4_store;
@@ -2412,7 +2398,7 @@
 				INFOPLIST_FILE = SurfToday/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.abigt.Surf4.SurfToday;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yarshure.Surf4.SurfToday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "59e3bf3a-c4e8-4483-9520-d27b72ce9e7d";
 				PROVISIONING_PROFILE_SPECIFIER = today4;
@@ -2444,7 +2430,7 @@
 				INFOPLIST_FILE = SurfToday/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.abigt.Surf4.SurfToday;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yarshure.Surf4.SurfToday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "139784b1-3780-497b-9e2d-1a0143bd5c52";
 				PROVISIONING_PROFILE_SPECIFIER = t4_store;
@@ -2590,7 +2576,7 @@
 				INFOPLIST_FILE = Surf/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.abigt.Surf4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yarshure.Surf4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "2f50898e-83b3-4593-b48b-dc016d890a1b";
 				PROVISIONING_PROFILE_SPECIFIER = surf4;
@@ -2632,7 +2618,7 @@
 				INFOPLIST_FILE = Surf/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.abigt.Surf4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yarshure.Surf4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "7b2bfca4-e903-4dd9-bad7-212ff6bcc70b";
 				PROVISIONING_PROFILE_SPECIFIER = sf4_store;
@@ -2669,7 +2655,7 @@
 				INFOPLIST_FILE = Kwazii/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.abigt.Kwazii;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yarshure.Kwazii;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
@@ -2702,7 +2688,7 @@
 				INFOPLIST_FILE = Kwazii/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.abigt.Kwazii;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yarshure.Kwazii;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
@@ -2736,7 +2722,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.abigt.XDataService;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yarshure.XDataService;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -2774,7 +2760,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.abigt.XDataService;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yarshure.XDataService;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -2804,7 +2790,7 @@
 				INFOPLIST_FILE = "Surf-Today/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.abigt.Surf.mac.Surf-Today";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yarshure.Surf.mac.Surf-Today";
 				PRODUCT_NAME = "A.BIG.T-Today";
 				PROVISIONING_PROFILE = "1aff835d-b9fc-4f39-bce3-56c2b6449295";
 				PROVISIONING_PROFILE_SPECIFIER = SurfToday;
@@ -2836,7 +2822,7 @@
 				INFOPLIST_FILE = "Surf-Today/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.abigt.Surf.mac.Surf-Today";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yarshure.Surf.mac.Surf-Today";
 				PRODUCT_NAME = "A.BIG.T-Today";
 				PROVISIONING_PROFILE = "4c19f325-3933-49d2-b2a1-32cefdb3d37c";
 				PROVISIONING_PROFILE_SPECIFIER = SurfTodayXX;
@@ -2869,7 +2855,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = com.abigt.Surf.mac;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yarshure.Surf.mac;
 				PRODUCT_NAME = A.BIG.T;
 				PROVISIONING_PROFILE = "6fd5297f-b0c7-44a5-89df-078d148c8357";
 				PROVISIONING_PROFILE_SPECIFIER = mac6;
@@ -2902,7 +2888,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = com.abigt.Surf.mac;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yarshure.Surf.mac;
 				PRODUCT_NAME = A.BIG.T;
 				PROVISIONING_PROFILE = "388485b7-2692-4daf-8690-700c62c9bee9";
 				PROVISIONING_PROFILE_SPECIFIER = mac6_store;
@@ -2947,7 +2933,7 @@
 					"-lssl",
 					"-lcrypto",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.abigt.Surf.mac.extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yarshure.Surf.mac.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "a231acd3-d2b2-4247-9c38-2f260bd665aa";
 				PROVISIONING_PROFILE_SPECIFIER = mac6ext;
@@ -2993,7 +2979,7 @@
 					"-lssl",
 					"-lcrypto",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.abigt.Surf.mac.extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yarshure.Surf.mac.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "c0f3aac9-899c-44ce-aba2-b27bf823f36d";
 				PROVISIONING_PROFILE_SPECIFIER = 222;

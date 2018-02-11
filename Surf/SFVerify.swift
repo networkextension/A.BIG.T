@@ -60,7 +60,7 @@ extension SFTableViewController {
         if let receipt = ProxyGroupSettings.share.receipt {
             for inapp in  receipt.in_app {
                 print("inapp buy \(inapp.product_id)")
-                if inapp.product_id == "com.abigt.Surf." + product.rawValue || inapp.product_id == "com.abigt.Surf.Pro"{
+                if inapp.product_id == "com.yarshure.Surf." + product.rawValue || inapp.product_id == "com.yarshure.Surf.Pro"{
                     print("version buy version > 3.2 ,buy")
                     return  true
                     //break
@@ -158,7 +158,7 @@ extension SFTableViewController {
                     }else {
                         for inapp in  rr.in_app {
                             print("inapp buy \(inapp.product_id)")
-                            if inapp.product_id == "com.abigt.Surf." + product.rawValue {
+                            if inapp.product_id == "com.yarshure.Surf." + product.rawValue {
                                 print("version buy version > 3.2 ,buy")
                                 purched = true
                                 break

@@ -54,7 +54,7 @@
 	<string>SFApplication</string>
 	<key>NSUbiquitousContainers</key>
 	<dict>
-		<key>iCloud.com.abigt.Surf</key>
+		<key>iCloud.com.yarshure.Surf</key>
 		<dict>
 			<key>NSUbiquitousContainerIsDocumentScopePublic</key>
 			<true/>

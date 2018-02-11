@@ -17,15 +17,15 @@ let DefaultConfig = "Default.conf"
 
 
 #if os(iOS)
-let groupIdentifier = "group.com.abigt.Surf"
+let groupIdentifier = "group.com.yarshure.Surf"
 #else
-    let groupIdentifier = "745WQDK4L7.com.abigt.Surf"
+    let groupIdentifier = "745WQDK4L7.com.yarshure.Surf"
 #endif
 let configExt = ".conf"
-let packetconfig = "group.com.abigt.config"
-let flagconfig = "group.com.abigt.flag"
-let onDemandKey = "com.abigt.onDemandKey"
-let errDomain = "com.abigt.socket"
+let packetconfig = "group.com.yarshure.config"
+let flagconfig = "group.com.yarshure.flag"
+let onDemandKey = "com.yarshure.onDemandKey"
+let errDomain = "com.yarshure.socket"
 let fm = FileManager.default
 
 //#if os(iOS)
@@ -52,11 +52,11 @@ let kProxyGroup = "ProxyGroup"
 let kProxyGroupFile = ".ProxyGroup"
 var groupContainerURLVPN:String = ""
 
-let iOSAppIden = "com.abigt.Surf"
-let iOSTodayIden = "com.abigt.Surf.SurfToday"
-let MacAppIden = "com.abigt.Surf.mac"
-let MacTunnelIden = "com.abigt.Surf.mac.extension"
-let iOSTunnelIden =  "com.abigt.Surf.PacketTunnel"
+let iOSAppIden = "com.yarshure.Surf"
+let iOSTodayIden = "com.yarshure.Surf.SurfToday"
+let MacAppIden = "com.yarshure.Surf.mac"
+let MacTunnelIden = "com.yarshure.Surf.mac.extension"
+let iOSTunnelIden =  "com.yarshure.Surf.PacketTunnel"
 let configMacFn = "abigt.conf"
 
 let NOTIFY_SERVER_PROFILES_CHANGED = "NOTIFY_SERVER_PROFILES_CHANGED"

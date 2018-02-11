@@ -42,7 +42,7 @@ extension NEVPNStatus: CustomStringConvertible {
 
 
 class SFNETunnelProviderManager:NETunnelProviderManager {
-    //var pluginType:String = "com.abigt.Surf"
+    //var pluginType:String = "com.yarshure.Surf"
     class func loadOrCreateDefaultWithCompletionHandler(_ completionHandler: ((NETunnelProviderManager?, Error?) -> Void)?) {
         self.loadAllFromPreferences { (managers, error) -> Void in
             if let error = error {
@@ -78,24 +78,24 @@ class SFNETunnelProviderManager:NETunnelProviderManager {
             }
             
             let config = NETunnelProviderProtocol()
-            config.providerConfiguration = ["App": bId,"PluginType":"com.abigt.Surf"]
+            config.providerConfiguration = ["App": bId,"PluginType":"com.yarshure.Surf"]
             #if os(iOS)
                 
-            config.providerBundleIdentifier = "com.abigt.Surf4.PacketTunnel"
+            config.providerBundleIdentifier = "com.yarshure.Surf4.PacketTunnel"
                 #else
-                config.providerBundleIdentifier = "com.abigt.Surf.mac.extension"
+                config.providerBundleIdentifier = "com.yarshure.Surf.mac.extension"
                 #endif
                 config.serverAddress = "240.84.1.24"
             
             let manager = SFNETunnelProviderManager()
             manager.protocolConfiguration = config
-            if bId == "com.abigt.Surf" {
+            if bId == "com.yarshure.Surf" {
                 manager.localizedDescription = "Surfing"
             }else {
                 manager.localizedDescription = "Surfing Today"
             }
             
-            //manager.setPluginType("com.abigt.Surf")
+            //manager.setPluginType("com.yarshure.Surf")
            // manager.
 //            manager.onDemandEnabled = true
 //            manager.onDemandRules = [NEOnDemandRule]()
@@ -335,7 +335,7 @@ class SFVPNManager {
         if let m = manager {
             m.isEnabled = true
             let bId = Bundle.main.infoDictionary!["CFBundleIdentifier"] as! String
-            if bId == "com.abigt.Surf" {
+            if bId == "com.yarshure.Surf" {
                 m.localizedDescription = "Surfing"
             }else {
                 m.localizedDescription = "Surfing Today"

@@ -15,7 +15,7 @@
 			<string>A.BIG.T Config</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>run.abigt.conf</string>
+				<string>run.yarshure.conf</string>
 			</array>
 		</dict>
 	</array>
@@ -82,7 +82,7 @@
 	<true/>
 	<key>NSUbiquitousContainers</key>
 	<dict>
-		<key>iCloud.com.abigt.Surf</key>
+		<key>iCloud.com.yarshure.Surf</key>
 		<dict>
 			<key>NSUbiquitousContainerIsDocumentScopePublic</key>
 			<true/>
