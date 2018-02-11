@@ -1,0 +1,22 @@
+//
+//  PacketTunnel-iOS.xcconfig
+//  Surf
+//
+//  Created by abigt on 16/1/12.
+//  Copyright © 2016年 abigt. All rights reserved.
+//
+
+HEADER_SEARCH_PATHS = $(inherited)  "$(SRCROOT)/share/include"  "$(SRCROOT)/Shared/header" "$(SRCROOT)/MMDB" "$(SRCROOT)/shared/lwip/badvpn"
+USER_HEADER_SEARCH_PATHS = $(inherited) "$(SRCROOT)/Shared/header" "$(SRCROOT)/Shared/lwip/src/include/"**
+OTHER_CFLAGS = $(inherited) -isystem -I "$(PROJECT_DIR)/iosLib"
+OTHER_LDFLAGS = $(inherited) -framework Crashlytics -framework Fabric//-lsodium //-mbedcrypto//lcrypto // - //mbedcrypto
+
+SSL_LIB_DEFINE =    TCP_MSS＝1460//USE_CRYPTO_MBEDTLS=1
+
+
+//OTHER_LDFLAGS = $(inherited)  -framework Crypto -framework Sodium -framework IDZSwiftCommonCrypto -framework CocoaAsyncSocket -framework SwiftyJSON -framework MMDB -weak_framework kcp -framework XSocket -framework ObjectMapper -framework Xcon -framework CommonCrypto -framework AxLogger
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$(PROJECT_DIR)/iosLib" "$(PROJECT_DIR)/Carthage/Build/iOS/"
+LIBRARY_SEARCH_PATHS = $(inherited) "$(PROJECT_DIR)/iosLib" "$(PROJECT_DIR)/Carthage/Build/iOS/"
+
+//USE_CRYPTO_OPENSSL USE_CRYPTO_MBEDTLS
+//USE_CRYPTO_MBEDTLS=1

@@ -1,0 +1,24 @@
+//
+//  Surf-iOS.xcconfig
+//  Surf
+//
+//  Created by abigt on 16/1/28.
+//  Copyright © 2016年 abigt. All rights reserved.
+//
+HEADER_SEARCH_PATHS = $(inherited)  "$(SRCROOT)/MMDB"
+
+OTHER_LDFLAGS = $(inherited)  -framework Crashlytics -framework Fabric //-framework Xcon -framework XRuler
+
+FRAMEWORK_SEARCH_PATHS = $(inherited)  "$(PROJECT_DIR)/iosLib" "$(PROJECT_DIR)/Carthage/Build/iOS/"
+LIBRARY_SEARCH_PATHS = $(inherited) "$(PROJECT_DIR)/iosLib" "$(PROJECT_DIR)/Carthage/Build/iOS/"
+
+
+
+HEADER_SEARCH_PATHS = $(inherited)  "$(PROJECT_DIR)/iosLib"  "$(SRCROOT)/share/include"  "$(SRCROOT)/Shared/header" "$(SRCROOT)/MMDB" "$(SRCROOT)/shared/lwip/badvpn"
+USER_HEADER_SEARCH_PATHS = $(inherited) "$(PROJECT_DIR)/iosLib"  "$(SRCROOT)/Shared/header" "$(SRCROOT)/Shared/lwip/src/include/"**
+OTHER_CFLAGS = $(inherited) -isystem -I"$(PROJECT_DIR)/iosLib"
+
+
+
+
+

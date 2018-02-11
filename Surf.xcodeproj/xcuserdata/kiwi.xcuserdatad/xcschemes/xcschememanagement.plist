@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>PacketTunnel.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SimpleTunnelServices.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Surf.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>578ED90C1C03096300913B2F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>578ED9281C03181200913B2F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>691B36761C0F5BD7001C815D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69366E551BFECBE700AE123D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

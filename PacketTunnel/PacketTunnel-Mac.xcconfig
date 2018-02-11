@@ -1,0 +1,23 @@
+//
+//  PacketTunnel.xcconfig
+//  Surf
+//
+//  Created by abigt on 16/1/4.
+//  Copyright © 2016年 abigt. All rights reserved.
+//
+//ALWAYS_SEARCH_USER_PATHS = YES
+//FRAMEWORK_SEARCH_PATHS = $(inherited) "$(PROJECT_DIR)/Surf-Mac"
+//HEADER_SEARCH_PATHS = $(inherited) "$(SRCROOT)/Shared/header" "$(SRCROOT)/MMDB" "$(SRCROOT)/shared/lwip/badvpn" "$(SRCROOT)/libsodium-ios/include" "$(SRCROOT)/lib"
+//USER_HEADER_SEARCH_PATHS = $(inherited) "$(SRCROOT)/Shared/header" "$(SRCROOT)/shared/lwip/src/include/"** "$(SRCROOT)/shared/lwip/custom" "$(SRCROOT)/Shared/proxy/ss"
+//OTHER_CFLAGS = $(inherited) -isystem
+//OTHER_LDFLAGS = $(inherited) -lsodium  -lmbedcrypto
+//LIBRARY_SEARCH_PATHS = $(inherited) "$(PROJECT_DIR)"
+
+FRAMEWORK_SEARCH_PATHS = $(inherited) //"$(PROJECT_DIR)/Surf-Mac"
+HEADER_SEARCH_PATHS = $(inherited)  "$(PROJECT_DIR)/share/include" "$(SRCROOT)/share/include/sodium" "$(SRCROOT)/Shared/header" "$(SRCROOT)/MMDB" "$(SRCROOT)/shared/lwip/badvpn"
+USER_HEADER_SEARCH_PATHS = $(inherited) "$(SRCROOT)/Shared/header" "$(SRCROOT)/shared/lwip/src/include/"** "$(SRCROOT)/shared/lwip/custom" "$(SRCROOT)/Shared/proxy/ss"
+OTHER_CFLAGS = $(inherited) -isystem
+OTHER_LDFLAGS = $(inherited) //-lsodium -lcrypto//-mbedcrypto // -lcrypto //
+LIBRARY_SEARCH_PATHS = $(inherited) "$(PROJECT_DIR)"
+//SSL_LIB_DEFINE =  USE_CRYPTO_OPENSSL=1  TCP_MSS＝1460
+SSL_LIB_DEFINE =    TCP_MSS＝1460

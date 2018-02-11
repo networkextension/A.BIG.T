@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FBAN/FBIOS</key>
+	<string>FaceBook</string>
+	<key>MicroMessenger Client - 2</key>
+	<string>WeChat</string>
+	<key>Twitter for iPhone</key>
+	<string>Twitter</string>
+	<key>Twitter-iPhone</key>
+	<string>Twitter</string>
+	<key>CriOS</key>
+	<string>Chrome</string>
+	<key>Safari</key>
+	<string>Safari</string>
+	<key>Instagram</key>
+	<string>Instagram</string>
+	<key>Connect</key>
+	<string>iTunes Connect</string>
+	<key>AppStore</key>
+	<string>App Store</string>
+	<key>Oasis</key>
+	<string>TestFlight</string>
+	<key>com.google.ios.youtube</key>
+	<string>youtube</string>
+	<key>网易云音乐</key>
+	<string>网易云音乐</string>
+	<key>京东</key>
+	<string>京东</string>
+	<key>iOS WJLoginSDK</key>
+	<string>京东</string>
+</dict>
+</plist>

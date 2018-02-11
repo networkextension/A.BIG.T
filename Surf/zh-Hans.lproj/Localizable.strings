@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  Surf
+
+  Created by abigt on 2017/8/3.
+  Copyright © 2017年 A.BIG.T. All rights reserved.
+*/
+
+
+"Status" = "状态";
+"Stop" = "停止";
+"Disconnect" = "未连接";
+"Please Try Again" = "请重试";
+"Connected" = "已连接";
+"Connecting" = "链接中";
+"Disconnecting" = "断开中";
+"Reasserting" = "暂停";
+"Switch" = "开关";
+"Please add Proxy" = "请添加节点";
+"Config not Found,Please Add" = "未找到配置";
+"No Proxy Found" = "请添加节点";
+"Please Manual/QrCode Add Proxy" = "手工/扫描二维码添加";
+"Load Profile Error:" = "加载配置错误:";
+"Proxy Server" = "节点";
+"Chain Proxy" = "节点链";
+"Update A.BIG.T Cloud error,please try again" = "加载错误";
+"Type" = "类型";
+"Note:if enable TLS,Server value must domain name" =  "Note:TLS 需要验证服务器证书";
+"Server" = "地址";
+"Port" = "端口";
+"Username" = "用户";
+"Password" = "密码";
+"TLS" = "TLS";
+"Proxy Config" = "编辑节点";
+"PROXY" = "代理";
+"Config Invalid!" = "信息无效，请重试";
+"Empty Password" = "密码不能为空";
+"NAME" = "标签";
+"PROXY" = "节点";
+"MISC" = "其他";
+"paramter" = "参数";
+"Cancel" = "取消";
+"Alert" = "提示";
+"Please Select Proxy Type" = "请选择类型";
+"One Time Auth" = "一次认证";
+"server address or ip" = "域名或者IP";
+"server port" = "端口";
+//"KCPTUN" ,
+"KCPTUN parameter" = "KCPTUN参数";
+//"Please Try Again" = "";
+//"Please Try Again" = "";
+//"Please Try Again" = "";
+//"Please Try Again" = "";
+//"Please Try Again" = "";
+//
+//"Please Try Again" = "";
+//"Please Try Again" = "";
+//"Please Try Again" = "";
+//"Please Try Again" = "";
+//"Please Try Again" = "";
+//"Please Try Again" = "";
+//"Please Try Again" = "";
+//"Please Try Again" = "";
+//"Please Try Again" = "";
+//"Please Try Again" = "";
+//"Please Try Again" = "";
+//"Please Try Again" = "";
+//
+//"Please Try Again" = "";
+"Today Widget Flow" = "插件流量图";
+"Show Country Flag" = "显示国旗";
+"Today Widget Select" = "插件配置";
+"Request History" = "保存访问记录";
+"iCloud sync" = "Cloud备份";
+"Proxy Chain" = "Proxy Chain";
+"Theme" = "样式";
+"Advance" = "高级";
+"Purchase" = "购买功能";
+"Clean Cache" = "清除缓存";
+"Config Sample View" = "规则样例";
+"Config Manual Chinese Edition" = "规则中文说明";
+"Follow us on Twitter" = "关注推特";
+"Rate/Review On AppStore" = "好评";
+"Acknowledge" = "致谢";
+"Recent Requests" = "最近请求";
+"Rule Test Results" = "规则缓存";
+"Sessions" = "历史记录";
+"Help" = "帮助";
+"Rules" = "规则";
+"Analyze" = "分析";
+"Version " = "版本 ";
+" (Build " = " (发布 ";
+"Session Not Start" = "服务没有开启";
+"Session Running" = "服务已经开启，请稍后再试";
+"Disconnect On Sleep" = "睡眠断开VPN";

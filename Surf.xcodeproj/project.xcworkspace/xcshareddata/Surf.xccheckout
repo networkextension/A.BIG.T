@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>34FE85AB-E9B1-464B-874B-3C4878403B82</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>67620B5EFA902936DF04070AF595B76AB0333747</key>
+		<string>https://github.com/Alamofire/Alamofire.git</string>
+		<key>AACA9EEA20FE12DA3331147805C5AB3BDC660A1A</key>
+		<string>bitbucket.org:yarshure/surf.git</string>
+		<key>EE56C236A941500E49A26799499985E2ED028F64</key>
+		<string>github.com:yarshure/MMDB-Swift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Surf.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>67620B5EFA902936DF04070AF595B76AB0333747</key>
+		<string>../..Alamofire/</string>
+		<key>AACA9EEA20FE12DA3331147805C5AB3BDC660A1A</key>
+		<string>../..</string>
+		<key>EE56C236A941500E49A26799499985E2ED028F64</key>
+		<string>../..MMDB/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>bitbucket.org:yarshure/surf.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AACA9EEA20FE12DA3331147805C5AB3BDC660A1A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>67620B5EFA902936DF04070AF595B76AB0333747</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Alamofire</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EE56C236A941500E49A26799499985E2ED028F64</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MMDB</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AACA9EEA20FE12DA3331147805C5AB3BDC660A1A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Surf</string>
+		</dict>
+	</array>
+</dict>
+</plist>

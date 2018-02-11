@@ -1,0 +1,225 @@
+
+/* Class = "UILabel"; text = "TLS"; ObjectID = "09T-1f-Cyu"; */
+"09T-1f-Cyu.text" = "TLS";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "0CT-rs-Gae"; */
+"0CT-rs-Gae.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "0yJ-K4-y7m"; */
+"0yJ-K4-y7m.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Scan Qrcode Add"; ObjectID = "1Oo-50-jh8"; */
+"1Oo-50-jh8.normalTitle" = "扫描二维码";
+
+/* Class = "UILabel"; text = "Notify"; ObjectID = "2Fb-W4-DT7"; */
+"2Fb-W4-DT7.text" = "Notify";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "3N7-Q8-YFo"; */
+"3N7-Q8-YFo.title" = "Item";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "41s-3R-nBj"; */
+"41s-3R-nBj.text" = "Title";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "4Ig-af-AvN"; */
+"4Ig-af-AvN.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "4iw-vT-QFw"; */
+"4iw-vT-QFw.text" = "Subtitle";
+
+/* Class = "UISegmentedControl"; 5UT-7H-Ysl.segmentTitles[0] = "APP"; ObjectID = "5UT-7H-Ysl"; */
+"5UT-7H-Ysl.segmentTitles[0]" = "应用";
+
+/* Class = "UISegmentedControl"; 5UT-7H-Ysl.segmentTitles[1] = "SUFFIX"; ObjectID = "5UT-7H-Ysl"; */
+"5UT-7H-Ysl.segmentTitles[1]" = "域名后缀";
+
+/* Class = "UISegmentedControl"; 5UT-7H-Ysl.segmentTitles[2] = "KEYWORD"; ObjectID = "5UT-7H-Ysl"; */
+"5UT-7H-Ysl.segmentTitles[2]" = "关键字";
+
+/* Class = "UISegmentedControl"; 5UT-7H-Ysl.segmentTitles[3] = "IP"; ObjectID = "5UT-7H-Ysl"; */
+"5UT-7H-Ysl.segmentTitles[3]" = "IP";
+
+/* Class = "UISegmentedControl"; 5UT-7H-Ysl.segmentTitles[4] = "GEOIP"; ObjectID = "5UT-7H-Ysl"; */
+"5UT-7H-Ysl.segmentTitles[4]" = "GEOIP";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "5dp-7x-GC6"; */
+"5dp-7x-GC6.title" = "Root View Controller";
+
+/* Class = "UILabel"; text = "Policy"; ObjectID = "5ix-Nm-68p"; */
+"5ix-Nm-68p.text" = "策略";
+
+/* Class = "UILabel"; text = "Verbose"; ObjectID = "6Mm-db-dZz"; */
+"6Mm-db-dZz.text" = "Verbose";
+
+/* Class = "UITextField"; placeholder = "require"; ObjectID = "7ev-xI-gWh"; */
+"7ev-xI-gWh.placeholder" = "必须";
+
+/* Class = "UILabel"; text = "Type/HTTP/Socks5"; ObjectID = "8CL-uh-vWc"; */
+"8CL-uh-vWc.text" = "Type/HTTP/Socks5";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "9Xx-3o-qLS"; */
+"9Xx-3o-qLS.normalTitle" = "链接";
+
+/* Class = "UIButton"; normalTitle = "Show Qrcode Image"; ObjectID = "9gK-jB-2te"; */
+"9gK-jB-2te.normalTitle" = "显示节点二维码";
+
+/* Class = "UILabel"; text = "Proxy Name"; ObjectID = "A8I-dI-Z4j"; */
+"A8I-dI-Z4j.text" = "Proxy Name";
+
+/* Class = "UITabBarItem"; title = "Rule"; ObjectID = "AqA-co-w8V"; */
+"AqA-co-w8V.title" = "Rule";
+
+/* Class = "UILabel"; text = "CN"; ObjectID = "Csd-RI-rAl"; */
+"Csd-RI-rAl.text" = "CN";
+
+/* Class = "UILabel"; text = "192.168.1.7  1080"; ObjectID = "E9y-1J-XbE"; */
+"E9y-1J-XbE.text" = "192.168.1.7  1080";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "IYN-Qk-G9g"; */
+"IYN-Qk-G9g.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Advance"; ObjectID = "KVp-vM-c1e"; */
+"KVp-vM-c1e.text" = "高级";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "Kr3-Pr-Vem"; */
+"Kr3-Pr-Vem.title" = "Root View Controller";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "MSV-L8-XGM"; */
+"MSV-L8-XGM.text" = "Title";
+
+/* Class = "UISegmentedControl"; NiM-y4-ptz.segmentTitles[0] = "http"; ObjectID = "NiM-y4-ptz"; */
+"NiM-y4-ptz.segmentTitles[0]" = "http";
+
+/* Class = "UISegmentedControl"; NiM-y4-ptz.segmentTitles[1] = "socks5"; ObjectID = "NiM-y4-ptz"; */
+"NiM-y4-ptz.segmentTitles[1]" = "socks5";
+
+/* Class = "UILabel"; text = "Acknowledge"; ObjectID = "QDO-BF-ann"; */
+"QDO-BF-ann.text" = "状态";
+
+/* Class = "UITabBarItem"; title = "Switch"; ObjectID = "TLs-Ix-8w5"; */
+"TLs-Ix-8w5.title" = "切换";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Tmf-Uq-kDa"; */
+"Tmf-Uq-kDa.text" = "Title";
+
+/* Class = "UILabel"; text = "Proxy Group"; ObjectID = "UGk-Vy-vu2"; */
+"UGk-Vy-vu2.text" = "代理组";
+
+/* Class = "UILabel"; text = "Policy"; ObjectID = "aI8-X5-bJi"; */
+"aI8-X5-bJi.text" = "策略";
+
+/* Class = "UITextField"; placeholder = "require"; ObjectID = "bjD-J7-VuI"; */
+"bjD-J7-VuI.placeholder" = "必须";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bvt-dM-dgh"; */
+"bvt-dM-dgh.text" = "Label";
+
+/* Class = "UILabel"; text = "notify"; ObjectID = "c6s-BB-TQH"; */
+"c6s-BB-TQH.text" = "notify";
+
+/* Class = "UISegmentedControl"; caa-Zb-PbE.segmentTitles[0] = "TCP"; ObjectID = "caa-Zb-PbE"; */
+"caa-Zb-PbE.segmentTitles[0]" = "TCP";
+
+/* Class = "UISegmentedControl"; caa-Zb-PbE.segmentTitles[1] = "Socks5"; ObjectID = "caa-Zb-PbE"; */
+"caa-Zb-PbE.segmentTitles[1]" = "Socks5";
+
+/* Class = "UISegmentedControl"; caa-Zb-PbE.segmentTitles[2] = "HTTP"; ObjectID = "caa-Zb-PbE"; */
+"caa-Zb-PbE.segmentTitles[2]" = "HTTP";
+
+/* Class = "UILabel"; text = "TLS"; ObjectID = "dP4-DJ-vDj"; */
+"dP4-DJ-vDj.text" = "TLS";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "dhh-OL-2ta"; */
+"dhh-OL-2ta.title" = "Item";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "esK-TU-CLm"; */
+"esK-TU-CLm.text" = "Title";
+
+/* Class = "UILabel"; text = "Trace"; ObjectID = "fKC-AV-PRY"; */
+"fKC-AV-PRY.text" = "Trace";
+
+/* Class = "UILabel"; text = "Info"; ObjectID = "fWx-fH-7hC"; */
+"fWx-fH-7hC.text" = "Info";
+
+/* Class = "UILabel"; text = "If enable,   all proxys will auto merge to proxy Group"; ObjectID = "gEQ-SU-jXR"; */
+"gEQ-SU-jXR.text" = "If enable,   all proxys will auto merge to proxy Group";
+
+/* Class = "UILabel"; text = "Buy Record"; ObjectID = "gxR-0n-kUL"; */
+"gxR-0n-kUL.text" = "Buy Record";
+
+/* Class = "UILabel"; text = "L"; ObjectID = "h2l-39-STS"; */
+"h2l-39-STS.text" = "L";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "hc4-Kz-yBW"; */
+"hc4-Kz-yBW.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hhs-PQ-Jra"; */
+"hhs-PQ-Jra.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "hiW-eo-bVS"; */
+"hiW-eo-bVS.normalTitle" = "取消";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "irE-gC-9HN"; */
+"irE-gC-9HN.text" = "Title";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "j9O-5L-RzG"; */
+"j9O-5L-RzG.text" = "状态";
+
+/* Class = "UILabel"; text = "notify"; ObjectID = "jL4-cZ-Woj"; */
+"jL4-cZ-Woj.text" = "notify";
+
+/* Class = "UILabel"; text = "Proxy Name"; ObjectID = "jdE-XB-ddC"; */
+"jdE-XB-ddC.text" = "代理名称";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "ksj-Hi-416"; */
+"ksj-Hi-416.text" = "加载中";
+
+/* Class = "UITextField"; placeholder = "Configuration Name"; ObjectID = "nmN-VT-pZg"; */
+"nmN-VT-pZg.placeholder" = "标签";
+
+/* Class = "UITextField"; placeholder = "require"; ObjectID = "o0C-oO-0Hj"; */
+"o0C-oO-0Hj.placeholder" = "必须";
+
+/* Class = "UILabel"; text = "L"; ObjectID = "o7k-nx-t9o"; */
+"o7k-nx-t9o.text" = "L";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "oLD-3B-mCd"; */
+"oLD-3B-mCd.text" = "Title";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "oNq-RI-QOE"; */
+"oNq-RI-QOE.text" = "Title";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "oXh-1m-G0w"; */
+"oXh-1m-G0w.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "pMl-By-U26"; */
+"pMl-By-U26.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "pea-EA-oWj"; */
+"pea-EA-oWj.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "sAk-AQ-pEw"; */
+"sAk-AQ-pEw.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "sm3-gp-c4x"; */
+"sm3-gp-c4x.title" = "控制器";
+
+/* Class = "UILabel"; text = "Warning"; ObjectID = "ssz-DM-XvQ"; */
+"ssz-DM-XvQ.text" = "警告";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "wGm-XI-tU9"; */
+"wGm-XI-tU9.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Album"; ObjectID = "wYf-ha-Uyi"; */
+"wYf-ha-Uyi.normalTitle" = "照片库";
+
+/* Class = "UITableViewController"; title = "Proxy Group"; ObjectID = "wcT-oI-VtM"; */
+"wcT-oI-VtM.title" = "代理组";
+
+/* Class = "UILabel"; text = "Log level "; ObjectID = "xNm-4u-KXC"; */
+"xNm-4u-KXC.text" = "日志等级";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "yyg-UZ-xh4"; */
+"yyg-UZ-xh4.text" = "Title";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "zz2-Zb-R72"; */
+"zz2-Zb-R72.text" = "Title";

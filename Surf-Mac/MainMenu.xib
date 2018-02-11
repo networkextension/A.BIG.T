@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Gtf-qq-Y5T" id="ajB-4m-ETA"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="SFApplication" customModule="Surf_Mac" customModuleProvider="target"/>
+        <customObject id="Gtf-qq-Y5T" customClass="AppDelegate" customModule="Surf_Mac" customModuleProvider="target">
+            <connections>
+                <outlet property="statusView" destination="XR6-YS-oCW" id="ZMG-xJ-dR0"/>
+            </connections>
+        </customObject>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customView id="XR6-YS-oCW" customClass="StatusView" customModule="Surf_Mac" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="21"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Nz8-h0-c2R">
+                    <rect key="frame" x="0.0" y="2" width="16" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="16" id="JEv-At-f1g"/>
+                        <constraint firstAttribute="height" constant="16" id="hWe-9j-BGQ"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="NSAdvanced" id="dEc-64-nWp"/>
+                </imageView>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="YUv-w5-0rf">
+                    <rect key="frame" x="22" y="1" width="11" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="mrm-Bz-4BD"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="u" id="pxO-CI-TW2">
+                        <font key="font" size="10" name="Ionicons"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Vvj-Ov-0Ap">
+                    <rect key="frame" x="22" y="-6" width="12" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="17" id="DOF-Tw-c2M"/>
+                        <constraint firstAttribute="width" constant="8" id="TFn-U8-eUU"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="d" id="OhO-8H-3TW">
+                        <font key="font" size="10" name="Ionicons"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4dU-0w-jhN">
+                    <rect key="frame" x="40" y="1" width="40" height="11"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="0  B/s" id="2HF-VE-6aA">
+                        <font key="font" metaFont="system" size="8"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aHz-OI-JWO">
+                    <rect key="frame" x="40" y="10" width="40" height="11"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="36" id="1qv-05-RRv"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="0  B/s" id="waO-pq-hd3">
+                        <font key="font" metaFont="system" size="8"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VvL-Qs-Crp">
+                    <rect key="frame" x="-6" y="-7" width="92" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="push" bezelStyle="rounded" borderStyle="border" transparent="YES" imageScaling="proportionallyDown" inset="2" id="9Mz-Ay-0yg">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <connections>
+                            <action selector="pushMenu:" target="Gtf-qq-Y5T" id="Zak-tK-tc8"/>
+                        </connections>
+                    </buttonCell>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="aHz-OI-JWO" firstAttribute="leading" secondItem="YUv-w5-0rf" secondAttribute="trailing" constant="11" id="3wz-iX-6m6"/>
+                <constraint firstAttribute="trailing" secondItem="aHz-OI-JWO" secondAttribute="trailing" constant="2" id="6y1-vI-Zjg"/>
+                <constraint firstItem="4dU-0w-jhN" firstAttribute="centerY" secondItem="Vvj-Ov-0Ap" secondAttribute="centerY" constant="-4" id="Fr2-v8-y7s"/>
+                <constraint firstItem="aHz-OI-JWO" firstAttribute="leading" secondItem="4dU-0w-jhN" secondAttribute="leading" id="HvJ-Ja-0Ku"/>
+                <constraint firstItem="YUv-w5-0rf" firstAttribute="centerY" secondItem="aHz-OI-JWO" secondAttribute="centerY" constant="5.5" id="Nl4-Gp-re5"/>
+                <constraint firstItem="Vvj-Ov-0Ap" firstAttribute="leading" secondItem="YUv-w5-0rf" secondAttribute="leading" id="Nzh-iW-jfu"/>
+                <constraint firstItem="Vvj-Ov-0Ap" firstAttribute="baseline" secondItem="YUv-w5-0rf" secondAttribute="baseline" constant="7" id="ZT2-zU-2cE"/>
+                <constraint firstItem="Vvj-Ov-0Ap" firstAttribute="leading" secondItem="Nz8-h0-c2R" secondAttribute="trailing" constant="8" id="iiM-5R-GlU"/>
+                <constraint firstItem="aHz-OI-JWO" firstAttribute="top" secondItem="XR6-YS-oCW" secondAttribute="top" id="kAP-ew-eXk"/>
+                <constraint firstItem="aHz-OI-JWO" firstAttribute="trailing" secondItem="4dU-0w-jhN" secondAttribute="trailing" id="q3c-yU-unY"/>
+                <constraint firstItem="Nz8-h0-c2R" firstAttribute="centerY" secondItem="aHz-OI-JWO" secondAttribute="centerY" constant="5.5" id="q8K-4Y-hFY"/>
+            </constraints>
+            <connections>
+                <outlet property="buttonView" destination="VvL-Qs-Crp" id="hpW-uQ-4RB"/>
+                <outlet property="downTrafficView" destination="4dU-0w-jhN" id="XOL-3P-cnC"/>
+                <outlet property="downView" destination="Vvj-Ov-0Ap" id="0pj-RQ-5j2"/>
+                <outlet property="iconView" destination="Nz8-h0-c2R" id="yKW-Bh-xrL"/>
+                <outlet property="upTrafficeView" destination="aHz-OI-JWO" id="3dB-6p-mHI"/>
+                <outlet property="upView" destination="YUv-w5-0rf" id="gZZ-2o-ls1"/>
+            </connections>
+            <point key="canvasLocation" x="-39" y="63.5"/>
+        </customView>
+        <menu title="ABC" id="WVT-lc-0FM">
+            <items>
+                <menuItem title="ACB" id="qIK-st-SOc">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Item 2" id="cdb-KP-jwH">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Item 3" id="f0Z-Jt-5XM">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+            </items>
+        </menu>
+    </objects>
+    <resources>
+        <image name="NSAdvanced" width="32" height="32"/>
+    </resources>
+</document>

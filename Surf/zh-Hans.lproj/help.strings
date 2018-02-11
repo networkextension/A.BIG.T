@@ -1,0 +1,54 @@
+
+/* Class = "UIButton"; normalTitle = "Upgrade"; ObjectID = "0WS-dd-6zy"; */
+"0WS-dd-6zy.normalTitle" = "升级";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "776-u6-juV"; */
+"776-u6-juV.text" = "0";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "7ki-V5-eyJ"; */
+"7ki-V5-eyJ.text" = "加载中..";
+
+/* Class = "UILabel"; text = "Acknowledge"; ObjectID = "8NQ-ib-iyf"; */
+"8NQ-ib-iyf.text" = "致谢";
+
+/* Class = "UILabel"; text = "Enable"; ObjectID = "FeP-6c-EAC"; */
+"FeP-6c-EAC.text" = "开关";
+
+/* Class = "UILabel"; text = "iCload sync"; ObjectID = "Jk7-3l-3ab"; */
+"Jk7-3l-3ab.text" = "iCload备份";
+
+/* Class = "UITextField"; placeholder = "Domain Name"; ObjectID = "MXR-V9-RAx"; */
+"MXR-V9-RAx.placeholder" = "输入域名";
+
+/* Class = "UILabel"; text = "Version 1.0 (build 100)"; ObjectID = "PG4-Hq-Xqj"; */
+"PG4-Hq-Xqj.text" = "Version 1.0 (build 100)";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "T12-u0-5JD"; */
+"T12-u0-5JD.title" = "Root View Controller";
+
+/* Class = "UILabel"; text = "Enable GEOIP base ruler\nEnable FINAL ruler"; ObjectID = "UFS-Mu-wgH"; */
+"UFS-Mu-wgH.text" = "Enable GEOIP base ruler\nEnable FINAL ruler";
+
+/* Class = "UITextView"; text = "sample"; ObjectID = "UHr-fR-rbx"; */
+"UHr-fR-rbx.text" = "例子";
+
+/* Class = "UILabel"; text = "❤️"; ObjectID = "YIn-as-YM7"; */
+"YIn-as-YM7.text" = "❤️";
+
+/* Class = "UITabBarItem"; title = "Help"; ObjectID = "YWX-8y-Enf"; */
+"YWX-8y-Enf.title" = "帮助";
+
+/* Class = "UITableViewController"; title = "About"; ObjectID = "cT2-If-XNE"; */
+"cT2-If-XNE.title" = "关于";
+
+/* Class = "UILabel"; text = "❤️"; ObjectID = "crt-Sf-BgH"; */
+"crt-Sf-BgH.text" = "❤️";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "hik-Yh-zX4"; */
+"hik-Yh-zX4.text" = "0";
+
+/* Class = "UILabel"; text = "Acknowledge"; ObjectID = "qfl-kj-hcC"; */
+"qfl-kj-hcC.text" = "致谢";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "sNQ-KS-TtS"; */
+"sNQ-KS-TtS.text" = "Title";

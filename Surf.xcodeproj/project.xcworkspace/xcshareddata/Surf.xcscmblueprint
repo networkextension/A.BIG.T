@@ -1,0 +1,121 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AACA9EEA20FE12DA3331147805C5AB3BDC660A1A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5C4B6E5BEABBFDA97ED77F2C420014ABE76ABA21" : 0,
+    "1C75F1C5CFCB95B3702F6F632FA05ED5244B519E" : 0,
+    "78CEBD94FC52DCE625058FE6959F9449C7CD4A7B" : 9223372036854775807,
+    "9FD74FCF0A1D92BBF703284651A70CC0554958A4" : 9223372036854775807,
+    "834DA2CBF1A005FD462115D8041C6D81D5FB12EF" : 9223372036854775807,
+    "55011AEBD444630C0E9DF47BD2E18FDBBDCC285D" : 9223372036854775807,
+    "3AE8ED2E684071AF4FB151FA51BF266B82FF45BD" : 9223372036854775807,
+    "EE56C236A941500E49A26799499985E2ED028F64" : 0,
+    "AACA9EEA20FE12DA3331147805C5AB3BDC660A1A" : 0,
+    "CBF92293916D19D8AA3B5911EB5CE04B7EBCA00D" : 9223372036854775807,
+    "04101981B66E318109934C9516F88D824BB96459" : 9223372036854775807,
+    "9FB1FDDBA011002795A1FF5BD3CABFA2F79E6A59" : 9223372036854775807,
+    "DB7231E74227E06B741062C9E94288CC651E14E2" : 0,
+    "67620B5EFA902936DF04070AF595B76AB0333747" : 0,
+    "C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "34FE85AB-E9B1-464B-874B-3C4878403B82",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5C4B6E5BEABBFDA97ED77F2C420014ABE76ABA21" : "..\/bitbucket\/simpletunnel_hack",
+    "1C75F1C5CFCB95B3702F6F632FA05ED5244B519E" : "surf\/thirdpart\/",
+    "78CEBD94FC52DCE625058FE6959F9449C7CD4A7B" : "surf\/GRDB\/",
+    "9FD74FCF0A1D92BBF703284651A70CC0554958A4" : "libkcp\/",
+    "834DA2CBF1A005FD462115D8041C6D81D5FB12EF" : "surf30\/external\/SFSocket\/",
+    "55011AEBD444630C0E9DF47BD2E18FDBBDCC285D" : "surf\/GRDB\/SQLCipher\/src\/",
+    "3AE8ED2E684071AF4FB151FA51BF266B82FF45BD" : "surf\/GRDB\/Tests\/Performance\/SQLite.swift\/",
+    "EE56C236A941500E49A26799499985E2ED028F64" : "surf\/MMDB\/",
+    "AACA9EEA20FE12DA3331147805C5AB3BDC660A1A" : "surf30\/",
+    "CBF92293916D19D8AA3B5911EB5CE04B7EBCA00D" : "surf\/GRDB\/SQLiteCustom\/src\/",
+    "04101981B66E318109934C9516F88D824BB96459" : "surf\/GRDB\/Tests\/Performance\/fmdb\/",
+    "9FB1FDDBA011002795A1FF5BD3CABFA2F79E6A59" : "surf\/GRDB\/Tests\/Performance\/Realm\/",
+    "DB7231E74227E06B741062C9E94288CC651E14E2" : "",
+    "67620B5EFA902936DF04070AF595B76AB0333747" : "surf\/Alamofire\/",
+    "C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3" : "SwiftyJSON\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Surf",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Surf.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ccgus\/fmdb.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "04101981B66E318109934C9516F88D824BB96459"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/robbiehanson\/CocoaAsyncSocket.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1C75F1C5CFCB95B3702F6F632FA05ED5244B519E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/stephencelis\/SQLite.swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3AE8ED2E684071AF4FB151FA51BF266B82FF45BD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/groue\/sqlcipher.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "55011AEBD444630C0E9DF47BD2E18FDBBDCC285D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:yarshure\/simpletunnel_hack.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5C4B6E5BEABBFDA97ED77F2C420014ABE76ABA21"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Alamofire\/Alamofire.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "67620B5EFA902936DF04070AF595B76AB0333747"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/groue\/GRDB.swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "78CEBD94FC52DCE625058FE6959F9449C7CD4A7B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:yarshure\/sfsocket.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "834DA2CBF1A005FD462115D8041C6D81D5FB12EF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/realm\/realm-cocoa.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9FB1FDDBA011002795A1FF5BD3CABFA2F79E6A59"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/networkextension\/libkcp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9FD74FCF0A1D92BBF703284651A70CC0554958A4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:yarshure\/surf.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AACA9EEA20FE12DA3331147805C5AB3BDC660A1A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:SwiftyJSON\/SwiftyJSON.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/swiftlyfalling\/SQLiteLib",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CBF92293916D19D8AA3B5911EB5CE04B7EBCA00D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:yarshure\/simpletunnel.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DB7231E74227E06B741062C9E94288CC651E14E2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:yarshure\/MMDB-Swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EE56C236A941500E49A26799499985E2ED028F64"
+    }
+  ]
+}

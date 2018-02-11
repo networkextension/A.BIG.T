@@ -1,0 +1,12 @@
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "3h3-5z-pJy"; */
+"3h3-5z-pJy.title" = "Button";
+
+/* Class = "NSTextFieldCell"; placeholderString = "00:00:00"; ObjectID = "NO5-qL-UId"; */
+"NO5-qL-UId.placeholderString" = "00:00:00";
+
+/* Class = "NSTextFieldCell"; title = "Connected Time"; ObjectID = "NO5-qL-UId"; */
+"NO5-qL-UId.title" = "Connected Time";
+
+/* Class = "NSTextFieldCell"; title = "Status"; ObjectID = "aFW-rf-X1A"; */
+"aFW-rf-X1A.title" = "Status";

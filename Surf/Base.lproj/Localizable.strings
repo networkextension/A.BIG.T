@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  Surf
+
+  Created by abigt on 2017/8/3.
+  Copyright © 2017年 A.BIG.T. All rights reserved.
+*/
+"iCloud sync" = "iCloud sync";
+
+"Proxy Chain" = "Proxy Chain";
+"Theme" = "Theme";
+"Advance" = "Advance";
+"Purchase" = "Purchase";
+"Clean Cache" = "Clean Cache";
+"Status" = "Status";
