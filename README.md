@@ -14,7 +14,14 @@ Just a Network extension framework Project
 * Or download packege from https://github.com/networkextension/Surf_lib/releases/tag/9.3Beta2, and put them in Carthage/Build
 * Change Xcode codesing profile and icloud config
 * Build and run  
-
+* Xcode 9.3 have bug , see https://twitter.com/network_ext/status/962701570239533057
+* build with command line 
+```
+$ xcodebuild -target  PacketTunnel-iOS
+$xcodebuild -target  SurfToday
+$xcodebuild
+$ls build/Release-iphoneos/Surf.app
+```
 ### Contribution guidelines ###
 
 *
