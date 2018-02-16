@@ -2,12 +2,12 @@
 
 Just a Network extension framework Project 
 
-### 使用技术 ###
+### Frameworks ###
 * Used open source project
 ```
 github "Alamofire/Alamofire" "4.6.0" #Download file from server
-github "Hearst-DD/ObjectMapper" "0c116f44b5d052892146bcb94ad6c690b3dec40d" #You know it 
-github "SwiftyJSON/SwiftyJSON" "4.0.0" #You know it 
+github "Hearst-DD/ObjectMapper" "0c116f44b5d052892146bcb94ad6c690b3dec40d" #You know it,will drop it ,change use Swift 4 Codable 
+github "SwiftyJSON/SwiftyJSON" "4.0.0" #You know it ,,will drop it ,change use Swift 4 Codable 
 github "ashleymills/Reachability.swift" "v3.0" #You know it
 github "bizz84/SwiftyStoreKit" "0.13.0" #InApp purchase, will drop  
 github "danielgindi/Charts" "v3.0.5" #Chart 
