@@ -618,7 +618,7 @@ class AppDelegate: NSResponder, NSApplicationDelegate,NSMenuDelegate ,NSTouchBar
     
     func applicationDidFinishLaunching(_ notification: Notification) {
         Fabric.with([Crashlytics.self])
-        XRuler.groupIdentifier = "745WQDK4L7.com.yarshure.Surf"
+        prepareApp()
         UserDefaults.standard.set(true, forKey: "NSApplicationCrashOnExceptions")
         copyConfig()
         // testTouchBar()

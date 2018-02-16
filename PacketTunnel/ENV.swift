@@ -50,6 +50,16 @@ func prepareApp() {
     XProxy.debugEanble = true
 
     XRuler.kProxyGroupFile = ".ProxyGroup"
-    XRuler.groupIdentifier = "group.com.yarshure.Surf"
-    SKit.groupIdentifier = "group.com.yarshure.Surf"
+    #if os(iOS)
+        
+       
+        XRuler.groupIdentifier = "group.com.yarshure.Surf"
+        SKit.groupIdentifier = "group.com.yarshure.Surf"
+        NSLog("init ################333")
+    #elseif os(macOS)
+        XRuler.groupIdentifier = "745WQDK4L7.com.yarshure.Surf"
+        SKit.groupIdentifier = "745WQDK4L7.com.yarshure.Surf"
+        
+    #endif
+    
 }

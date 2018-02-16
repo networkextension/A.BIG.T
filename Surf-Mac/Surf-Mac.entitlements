@@ -25,13 +25,13 @@
 	<string>745WQDK4L7</string>
 	<key>com.apple.developer.ubiquity-container-identifiers</key>
 	<array>
-		<string>iCloud.com.abigt.Surf</string>
+		<string>iCloud.com.yarshure.Surf</string>
 	</array>
 	<key>com.apple.security.app-sandbox</key>
 	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>745WQDK4L7.com.abigt.Surf</string>
+		<string>745WQDK4L7.com.yarshure.Surf</string>
 	</array>
 	<key>com.apple.security.network.client</key>
 	<true/>

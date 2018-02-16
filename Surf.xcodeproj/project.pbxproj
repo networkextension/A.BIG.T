@@ -274,6 +274,7 @@
 		69A99E4C1C6A2E96009EC4C5 /* SFLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A99E4B1C6A2E96009EC4C5 /* SFLog.swift */; };
 		69A99E4D1C6A2E96009EC4C5 /* SFLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A99E4B1C6A2E96009EC4C5 /* SFLog.swift */; };
 		69A9FE4D1CC5C0CF00D5DB41 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69A9FE4B1CC5C0CF00D5DB41 /* ionicons.ttf */; };
+		69ABFDD32037485B006A355E /* ENV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BE2E681FFC704C0078845A /* ENV.swift */; };
 		69AD9CC8200354A100C01011 /* XFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69AD9CC7200354A100C01011 /* XFoundation.framework */; };
 		69AD9CC9200354B400C01011 /* XFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69AD9CC7200354A100C01011 /* XFoundation.framework */; };
 		69AD9CCA200354B400C01011 /* XFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 69AD9CC7200354A100C01011 /* XFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -1902,7 +1903,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./maclab/Fabric.framework/run key token";
+			shellScript = "./maclab/Fabric.framework/run c9fadabbd94966964cc83af7873deadbe56ceb89 e746b1825d577768a63f93d7b2ddd5177ab095a1a9152a29666458e8e5d514f1\n";
 		};
 		69C2A60B1F147D9000B1B0A6 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2068,6 +2069,7 @@
 				69BF6C6E1DE6D742000ABF09 /* RequestsWindowController.swift in Sources */,
 				696573D21DE48EBF00D95D59 /* AdvancedWindowController.swift in Sources */,
 				6906B90E1DE29F8300A60B66 /* ConfigWindowController.swift in Sources */,
+				69ABFDD32037485B006A355E /* ENV.swift in Sources */,
 				6906B9441DE5412B00A60B66 /* SFCountry.swift in Sources */,
 				6952BAEA1DF92F9D00DAD397 /* QrWindowController.swift in Sources */,
 				6952BAF11DF9529700DAD397 /* QrController.swift in Sources */,
@@ -2805,7 +2807,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yarshure.Surf.mac;
 				PRODUCT_NAME = A.BIG.T;
-				PROVISIONING_PROFILE = "6fd5297f-b0c7-44a5-89df-078d148c8357";
+				PROVISIONING_PROFILE = "ed982b7d-88e2-4c18-8d1e-c01597aa9750";
 				PROVISIONING_PROFILE_SPECIFIER = mac6;
 				SDKROOT = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "Surf-Mac/$(SWIFT_MODULE_NAME)-Bridging-Header.h";

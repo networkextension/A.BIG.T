@@ -69,8 +69,12 @@ class AdvancedWindowController: NSWindowController {
         }else {
             ProxyGroupSettings.share.saveiCloudSync(false)
         }
-    
-        try! ProxyGroupSettings.share.save()
+        do {
+            try ProxyGroupSettings.share.save()
+        }catch let e {
+            alertMesage(e.localizedDescription)
+        }
+        
         window?.performClose(nil)
     }
     
