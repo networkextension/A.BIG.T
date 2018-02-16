@@ -7,7 +7,7 @@
 //
 
 import Cocoa
-import SwiftyJSON
+
 import NetworkExtension
 import SFSocket
 import XProxy

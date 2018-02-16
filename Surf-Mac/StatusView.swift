@@ -10,7 +10,7 @@ import Cocoa
 import SFSocket
 import XRuler
 import NetworkExtension
-import SwiftyJSON
+
 class StatusView: NSView {
     var report:SFVPNStatistics = SFVPNStatistics.shared
     var reportTimer:Timer?

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SwiftyJSON
+
 import SFSocket
 import XRuler
 import Xcon

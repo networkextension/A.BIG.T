@@ -8,7 +8,7 @@
 
 import UIKit
 import SFSocket
-import SwiftyJSON
+
 import XRuler
 struct SFFILE {
     var name:String

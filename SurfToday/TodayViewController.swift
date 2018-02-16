@@ -9,7 +9,7 @@
 import UIKit
 import NotificationCenter
 import NetworkExtension
-import SwiftyJSON
+
 import DarwinCore
 import SFSocket
 import Crashlytics
