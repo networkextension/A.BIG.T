@@ -10,6 +10,13 @@
 * ...
 * ...
 * ...
+"""
+$ xcodebuild -target  PacketTunnel-iOS
+$xcodebuild -target  SurfToday
+$xcodebuild
+$ls build/Release-iphoneos/Surf.app
+"""
+
 * Deployment instructions
 
 ### Contribution guidelines ###
