@@ -14,7 +14,7 @@ import XRuler
 import XProxy
 final class RequestsVC: RequestsBasic {
     @IBOutlet weak var  detail:NSView!
-    let report:SFVPNStatistics = SFVPNStatistics.shared
+    
     var refreshTime =  DispatchSource.makeTimerSource(flags: DispatchSource.TimerFlags(rawValue: 0), queue: DispatchQueue.main)
     func startProxy(){
         SKit.startGCDProxy(port: 10081, dispatchQueue: DispatchQueue.init(label: "Kwazii.dispatch"), socketQueue: DispatchQueue.init(label: "Kwazii.dispatch.socket"))

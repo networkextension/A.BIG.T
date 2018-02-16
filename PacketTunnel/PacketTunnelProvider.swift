@@ -8,7 +8,7 @@
 //
 
 import NetworkExtension
-import SwiftyJSON
+
 import SFSocket
 import AxLogger
 import Crashlytics

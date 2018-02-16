@@ -8,7 +8,7 @@
 
 import UIKit
 import NetworkExtension
-import SwiftyJSON
+
 import SFSocket
 import CoreTelephony
 import Fabric

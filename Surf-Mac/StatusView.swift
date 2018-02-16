@@ -10,9 +10,9 @@ import Cocoa
 import SFSocket
 import XRuler
 import NetworkExtension
-import SwiftyJSON
+
 class StatusView: NSView {
-    var report:SFVPNStatistics = SFVPNStatistics.shared
+    
     var reportTimer:Timer?
     @IBOutlet weak var iconView: NSImageView!
     @IBOutlet weak var upView: NSTextField!
@@ -53,24 +53,24 @@ class StatusView: NSView {
         let now  =  getInterfaceTraffic()
         if now.TunSent != 0 && now.TunReceived != 0 {
             //report.lastTraffice.tx = now.TunSent -
-            
-            if now.TunSent > report.totalTraffice.tx {
-                report.lastTraffice.tx = now.TunSent - report.totalTraffice.tx
-                
-                report.lastTraffice.rx = now.TunReceived - report.totalTraffice.rx
-                report.updateMax()
-            }
-            
-            
-            
-            report.totalTraffice.tx = now.TunSent
-            report.totalTraffice.rx = now.TunReceived
-            
-            let t = report.lastTraffice
-            
-            
-            upTrafficeView.stringValue = self.toString(x: t.tx,label: "",speed: true)
-            downTrafficView.stringValue = self.toString(x: t.rx,label: "",speed: true)
+            //FIXME:
+//            if now.TunSent > report.totalTraffice.tx {
+//                report.lastTraffice.tx = now.TunSent - report.totalTraffice.tx
+//
+//                report.lastTraffice.rx = now.TunReceived - report.totalTraffice.rx
+//                report.updateMax()
+//            }
+//
+//
+//
+//            report.totalTraffice.tx = now.TunSent
+//            report.totalTraffice.rx = now.TunReceived
+//
+//            let t = report.lastTraffice
+//
+//
+//            upTrafficeView.stringValue = self.toString(x: t.tx,label: "",speed: true)
+//            downTrafficView.stringValue = self.toString(x: t.rx,label: "",speed: true)
         }else {
             upTrafficeView.stringValue = "0  B/s"
             downTrafficView.stringValue = "0  B/s"
@@ -129,36 +129,23 @@ class StatusView: NSView {
     
     }
     func processData(data:Data)  {
-        
-        //results.removeAll()
-        //print("111")
-        //let responseString = NSString(data: data!, encoding: NSUTF8StringEncoding)
-        let obj = try! JSON.init(data: data)
-        if obj.error == nil {
-            
-            //alertMessageAction("message dont init",complete: nil)
-            report.map(j: obj)
-            
-            
-            
-            
+        do {
+            let report:SFStatistics =  try  JSONDecoder().decode(SFStatistics.self, from: data)
             //bug here
             if let m = SFVPNManager.shared.manager, m.connection.status == .connected{
                 //chartsView.updateFlow(report.netflow)
                 //chartsView.isHidden = false
-                if let last = report.netflow.totalFlows.last {
+                if let last = report.netflow.total.last {
                     upTrafficeView.stringValue = self.toString(x: last.tx,label: "",speed: true)
                     downTrafficView.stringValue = self.toString(x: last.rx,label: "",speed: true)
                 }
-               
-            }else {
                 
             }
-            //print(report.netflow.currentFlows)
-            
-           
-            
+        }catch let e {
+            print(e.localizedDescription)
         }
+       
+       
         
     }
 }

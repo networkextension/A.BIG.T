@@ -7,7 +7,7 @@
 //
 
 import Cocoa
-import SwiftyJSON
+
 import NetworkExtension
 import SFSocket
 import XProxy
@@ -61,58 +61,42 @@ class RequestsWindowController: NSWindowController,NSTableViewDelegate,NSTableVi
         let oldresults = results
         results.removeAll()
         
-        let obj = try! JSON.init(data: data)
-        if obj.error == nil {
+        let helper = try! JSONDecoder().decode(ConnectionHelper.self, from: data)
+        
+        for item in helper.data {
             
-            let count = obj["count"]
             
-            if count.intValue != 0 {
-                
-                let result = obj["data"]
-                if result.type == .array {
-                    for item in result {
-                        
-                        let json = item.1
-                        let r = SFRequestInfo.init(rID: 0)
-                        r.map(json)
-                        let rr = oldresults.filter({ info -> Bool in
-                            if info.reqID == r.reqID && info.subID == r.subID {
-                                return true
-                            }
-                            return false
-                        })
-                        
-                        if rr.isEmpty {
-                            results.append(r)
-                            r.speedtraffice = r.traffice
-                        }else {
-                            let old = rr.first!
-                            if r.traffice.rx > old.traffice.rx {
-                                //sub id reset
-                                r.speedtraffice.rx = r.traffice.rx - old.traffice.rx
-                            }
-                            
-                            if r.traffice.tx > old.traffice.tx{
-                                //?
-                                r.speedtraffice.tx = r.traffice.tx - old.traffice.tx
-                            }
-                            
-                            
-                            results.append(r)
-                        }
-                        
-                    }
+            let rr = oldresults.filter({ info -> Bool in
+                if info.reqID == item.reqID && info.subID == item.subID {
+                    return true
                 }
-                if results.count > 0 {
-                    results.sort(by: { $0.reqID < $1.reqID })
-                    
+                return false
+            })
+            
+            if rr.isEmpty {
+                results.append(item)
+                item.speedtraffice = item.traffice
+            }else {
+                let old = rr.first!
+                if item.traffice.rx > old.traffice.rx {
+                    //sub id reset
+                    item.speedtraffice.rx = item.traffice.rx - old.traffice.rx
                 }
                 
+                if item.traffice.tx > old.traffice.tx{
+                    //?
+                    item.speedtraffice.tx = item.traffice.tx - old.traffice.tx
+                }
+                
+                
+                results.append(item)
             }
             
-            
         }
-        
+    if results.count > 0 {
+        results.sort(by: { $0.reqID < $1.reqID })
+    
+    }
         tableView.reloadData()
         
     }

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import SwiftyJSON
+
 import MMDB
 import AxLogger
 class CData {
@@ -19,32 +19,42 @@ class CData {
     }
 }
 
+//"code": "AD",
+//"emoji": "🇦🇩",
+//"unicode": "U+1F1E6 U+1F1E9",
+//"name": "Andorra",
+//"title": "flag for Andorra"
+
+struct CountryCode:Codable {
+    var code:String = ""
+    var emoji:String = ""
+    var unicode:String = ""
+    var name:String = ""
+    var title:String = ""
+}
+struct CountryCodeList:Codable {
+    var list:[CountryCode] = []
+}
 class Country {
     var db:MMDB?
     //var data:JSON?
-    var list:[String:CData] = [:]
+    var list:[String:CountryCode] = [:]
     static let setting:Country = {
         let c = Country()
         if let path = Bundle.main.path(forResource:"data.json", ofType: nil) {
-            let d = try! Data.init(contentsOf: URL.init(fileURLWithPath: path))
-            let data = try! JSON(data: d)
-            if data.error == nil {
-                for (k,v) in data {
-                    let code = v["code"].stringValue
-                    let e = v["emoji"].stringValue
-                    let x = CData.init(c: code, e: e)
-                    c.list[code] = x
-                    //print("\(code),\(e)")
+            do {
+                let d = try Data.init(contentsOf: URL.init(fileURLWithPath: path))
+                let list = try JSONDecoder().decode(CountryCodeList.self, from: d)
+                for i  in list.list {
+                    
+                    c.list[i.code] = i
+                    
                 }
-            }else {
-                //fatalError()
-                if  let  error = data.error {
-                    print("\(error)")
-                }
-                
+            }catch let e {
+                print(e)
             }
-            
-            
+           
+
             
         }else {
             fatalError()
